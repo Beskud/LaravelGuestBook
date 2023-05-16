@@ -1,0 +1,204 @@
+.container {
+    margin-top: 10%;
+}
+
+body {
+    background-color: white;
+}
+.bg{
+    background-color: slategray;
+}
+.registration-button {
+    width: 100%;
+    border: none;
+    padding: 20px 15px;
+    border-radius: 20px;
+    border-color: teal;
+    cursor: pointer;
+    background-color: teal;
+    font-family: 'Trebuchet MS';
+    font-weight: 700;
+    font-size: medium;
+}
+
+.default-input-registration {
+    border-radius: 20px;
+    background-color: darkgray;
+    padding: 20px 15px;
+    border: none;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.position-registr {
+    display: grid;
+    margin: 0 auto;
+    width: 30%;
+}
+
+.registration-button:hover {
+    transition: background-color .3s linear;
+    background-color: rgb(6, 98, 98);
+}
+
+.default-input-registration:hover {
+    transition: background-color .3s linear;
+    background-color: gray
+}
+
+.remove.icon {
+    color: red;
+    position: absolute;
+    margin-left: 3px;
+    margin-top: 10px;
+    background-color: #000;
+    position: absolute;
+    top: 1px;
+    right: 20px;
+    cursor: pointer;
+}
+  
+  .remove.icon:before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: #000;
+    background-color: currentColor;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  
+  .remove.icon:after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: #000;
+    background-color: currentColor;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  
+  
+
+.default-input-registration:focus {
+    border: none;
+}
+
+.email-message {
+    display: flex;
+    color: red;
+}
+
+.username-message {
+    display: flex;
+    color: red;
+    justify-content: center;
+}
+
+.password-message {
+    display: flex;
+    color: red;
+    justify-content: center;
+}
+
+.confirmation-message {
+    display: flex;
+    color: red;
+    justify-content: center;
+}
+
+.nav_livk {
+    text-align: center;
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+
+.nav_livk {
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.registration-button {
+    width: 100%;
+    border: none;
+    padding: 20px 15px;
+    border-radius: 20px;
+    border-color: teal;
+    cursor: pointer;
+    background-color: teal;
+    font-family: 'Trebuchet MS';
+    font-weight: 700;
+    font-size: medium;
+}
+
+.default-input-autorization {
+    border-radius: 20px;
+    background-color: darkgray;
+    padding: 20px 15px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.position-registr {
+    display: grid;
+    margin: 0 auto;
+    width: 30%;
+}
+
+.registration-button:hover {
+    transition: background-color .3s linear;
+    background-color: rgb(6, 98, 98);
+}
+
+.default-input-registration:hover {
+    transition: background-color .3s linear;
+    background-color: gray
+
+}
+
+.default-input-registration:focus {
+    border: none;
+}
+
+.message {
+    display: flex;
+    color: red;
+    justify-content: center;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    place-self: center;
+    justify-content: center;
+    margin-left: 10px;
+    border-color: black;
+}
+
+.none-icon {
+    width: 35px;
+    height: 35px;
+    border: none;
+}
+
+.avatar-item {
+    max-width: 33%;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.avatar-item:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
